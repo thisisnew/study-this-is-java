@@ -1,4 +1,4 @@
-package unbounded;
+package ch13.unbounded;
 
 public class BoundedTypeParameterExample {
 	public static void main(String[] args) {
