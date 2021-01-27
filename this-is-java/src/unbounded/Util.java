@@ -1,4 +1,4 @@
-package ch13.extend;
+package unbounded;
 
 public class Util {
 	public static <T extends Number> int compare(T t1, T t2) {
