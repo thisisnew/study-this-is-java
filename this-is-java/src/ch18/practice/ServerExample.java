@@ -34,6 +34,8 @@ public class ServerExample {
 					fos.write(bytes, 0, readByteCount);
 				}
 
+				fos.flush();
+				
 				System.out.println("[파일 받기 완료]");
 
 				fos.close();
